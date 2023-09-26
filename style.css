@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav-Bar */
+header{
+    display: flex;
+    background-color: #3eb489;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+li, a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    height: 80px;
+    width: 200px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.Nav-Link{
+    list-style: none;
+}
+
+.Nav-Link li{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Nav-Link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.Nav-Link li a:hover{
+    color: mediumspringgreen;
+}
+
+/* HOME */
+    /* Banner */
+.banner{
+    background: url(Image/banner.jpg);
+    height: 600px;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content h1{
+    width: 100%;
+    float: left;
+    font-size: 75px;
+    padding-top: 40px;
+    font-family: 'Blanka', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    color:#090808; 
+} 
+
+.banner-content p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #090808;
+    text-align: center;
+}
+
+    /* Our Product */
+.Our-Product{
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.Text h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 36px;
+    color: #090808;
+    text-align: center;
+}
+
+.Text p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    color: #090808;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.Content{
+    width: 100%;
+    float: left;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Product-text{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #090808;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Product-Icon{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.Product-detail{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #090808;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.See-button{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.button a{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #3eb489;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 20px;
+}
+
+.button a:hover{
+    color:mediumspringgreen;
+    background-color: #3eb489;
+}
+
+/* About */
+.About{
+    background: url(Image/image.jpg);
+    height: 600px;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-content h1{
+    width: 100%;
+    float: left;
+    font-size: 75px;
+    padding-top: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: center;
+    color:white; 
+} 
+
+.about-content p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Contact */
+.contact-Us {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.contact_text{
+    width: 100%;
+    float: left;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 36px;
+    color: black;
+}
+
+.Contact-content{
+    width: 100%;
+    float: left;
+}
+
+.contact-button {
+    color: black;
+    width: 100%;
+    height: 55px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input.contact-button::placeholder {
+    color:gray;
+}
+
+.Message-Button {
+    color: black;
+    width: 100%;
+    height: 150px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    padding: 50px 20px 10px 20px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea#comment::placeholder {
+    color:gray;
+}
+
+.SEND-Button {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.SEND-Button a{
+    width: 30%;
+    float: left;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #3eb489;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.SEND-Button a:hover{
+    color: mediumspringgreen;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    float: left;
+    background-color:#3eb489;
+    height: auto;
+}
+
+.icon{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.icon ul{
+    margin: 0px;
+    padding-right: 30px;
+    display:inline-flex;
+}
+
+.icon li{
+    float: left;
+    padding-right: 30px;
+}
